@@ -1,3 +1,49 @@
 #intro {
     text-align: center;
 }
+/*
+#taquipariu {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border: 5px solid black;
+}
+*/
+#header {
+
+    height: 50%;
+    width: 100%;
+    background-color: brown;
+    border: 5px solid black;
+}
+#corpo {
+    height: 60%;
+    width: 100%;
+    background-color: burlywood;
+    border: 5px solid red;
+}
+#footer {
+
+    height: 40%;
+    width: 100%;
+    background-color: rgb(252, 206, 122);
+    border: 5px solid blue;
+}
+#logo {
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: white;
+}
+#op {
+    border: solid black 3px;
+}
+.pedreira {
+
+    height: 50p;
+    width: 100%;
+    background-color: green;
+    border: 5px solid black;
+}
