@@ -1,0 +1,2 @@
+link site: http://127.0.0.1:5500/index.html
+link para sessão: https://prod.liveshare.vsengsaas.visualstudio.com/join?43931533F760C59DEF0992D10E95FD0A822E
