@@ -1,0 +1,16 @@
+Anotações de Layrtovich:
+
+1 - Fazer com que os botões das partes do pc sejam  para que o usuário possa 
+    ir de um componente para o outro;
+
+2 - Programar pesquisar;
+
+3 - Programar o butão Filtrar;
+
+4 - Programar o botão Ordenar;
+
+5 - Criar o json com imagem, descrição do produto e preço;
+
+6 - Fazer a logo;
+
+7 - Fazer o sistema de login e cadastro (Quem se ferra aqui é o Didi);
