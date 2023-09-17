@@ -5,7 +5,7 @@ html, body {
     background-color:  #2E2B2B;
     font-family: Arial, Helvetica, sans-serif;
 }
-#body {
+main {
     height: 100%;
     width: 100%; 
 }
@@ -66,11 +66,19 @@ html, body {
     width: 100%;
     background-color: #2E2B2B;
 }*/
-#boxpesquisa {
-    width: 95%;
-    height: 72%;
+#funcoes {
+    margin-top: 50px;
+    display:inline-flex;
+    width: 100%
 }
-#pesquisa {
+#boxpesquisa{
+    width: 95%;
+    height: 80%;
+    bottom: 5px;
+    left: 1px;
+    position: relative;
+}
+#pesquisa{
     color: white;
     background-color: #211E1E;
     border: 2px solid  black;
@@ -78,7 +86,15 @@ html, body {
     width: 60%;
     height: 3%;
 }
-#filtrar {
+#lupa {
+    width: 2%;
+    position: relative;
+    top: 2px;
+    left: 6px;
+    border: 2px solid white;
+    background-color: blue;
+}
+#filtrar{
     text-align: center;
     color: white;
     background-color: #211E1E;
@@ -87,7 +103,7 @@ html, body {
     height: 3%;
     width: 6%;
 }
-#ordenar {
+#ordenar{
     text-align: center;
     color: white;
     background-color: #211E1E;
@@ -97,12 +113,7 @@ html, body {
     width: 6%;
     display: flex;
 }
-#funcoes {
-    margin-top: 50px;
-    display:inline-flex;
-    width: 100%
-}
-.itens {
+.itens{
     margin-left: 2.5%;
     margin-top: 2%;
     height: 13%;
