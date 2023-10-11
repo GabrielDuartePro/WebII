@@ -8,7 +8,6 @@ body {
     background-color: #65150A;
     display: inline-block;
     width: 100%;
-
 }
 #logo {
     height: 100px;
@@ -18,51 +17,72 @@ body {
     display: relative;
     float: left;
 }
-#op {
+/*#op {
     color: white;
     height: 50%;
     width: 20%;
     margin-top: 2.5%;
     margin-left: 76%;
     font-weight: bolder;
+}*/
+#login {
+    float: right;
+    position: relative;
+    top: 40px;
+    right: 15px;
+    padding: 10px;
+    font-weight: bolder;
+}
+a#login:link, a#login:visited, a#login:hover, a#login:active {
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+}
+a#login:visited {
+    color: blue;
+}
+a#login:hover {
+    color: cornflowerblue;
+}
+a#login:active {
+    color: red;
 }
 main {
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
 #pecas {
     background-color: #2E2B2B;
-    display: inline-flex;
+    display: flex;
 }
 .pedreira {
     color: white;
     background-color: #211E1E;
     border: 2px solid black;
-    width: 50%; 
+    width: 50%;
     height: 100px;
-    margin-right: 6px; 
+    margin-right: 6px;
     margin-left: 6px;
     margin-top: 10px;
-    padding: 10px; 
-    box-sizing: border-box; 
+    padding: 10px;
+    box-sizing: border-box;
     text-align: center;
 }
 
 /*#footer {
-    height: 75%; 
+    height: 75%;
     width: 100%;
     background-color: #2E2B2B;
 }*/
 #funcoes {
     margin-top: 50px;
     display:inline-flex;
-   
+
     width: 100%;
-   
+
 }
 #boxpesquisa{
     width: 95%;
- 
 }
 #pesquisa{
     color: white;
@@ -86,9 +106,9 @@ main {
     background-color: #211E1E;
     border: 2px solid  black;
     margin-left: 2%;
-    
+
     width: 15%;
-    
+
 }
 .itens{
     margin-left: 2.5%;
@@ -98,27 +118,34 @@ main {
     background-color: #211E1E;
     border: 2px solid  black;
     color: white;
+    display: flex;
+    flex-wrap: row wrap;
 }
-
+#descricao{
+    color: aqua;
+    text-align: center;
+    margin-top: 2.5%;
+}
+#valor{
+    color: yellow;
+    text-align: center;
+    margin-top: 2.5%;
+    margin-right: 1%;
+}
 #mainForm #formulario {
     position:absolute;
     display:block;
 }
-
 #mainForm {
     position:relative;
-    left:37%;
-    top:29%;
+    margin-left: 40%;
     width:320px;
     height:300px;
 }
-
-fieldset
-{
+fieldset {
   width:300px;
   height:250px;
 }
-
 vl {
     border-left: 3px solid white;
     height: 120px;
