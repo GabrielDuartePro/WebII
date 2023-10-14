@@ -8,41 +8,43 @@
 	<title>Monte o seu PC.</title>
 </head>
 <body>
-	<header id="header">
-		<img id="logo" src="imagens/logo.png" alt="Logotipo do site.">
+	<header>
+		<img id="logo" src="imagens/logo.png" alt="Logotipo do site." title="Logotipo do site.">
 		<a href="login.html" id="login" target="_blank">FAÇA SEU LOGIN OU SE CADASTRE</a>
 	</header>
 	<main>
-		<div id="pecas">
-		    <div class="pedreira" id="bloco1">
-				<span>Placa-mãe</span>
+		<div class="pecas">
+		    <div class="pedreira" title="Clique para obter informações sobre placas-mãe.">
+				<p>Placa-mãe</p>
 			</div>
-			<div class="pedreira" id="bloco2">
-				<span>Processador</span>
+			<div class="pedreira" title="Clique para obter informações sobre processadores.">
+				<p>Processador</p>
 			</div>
-			<div class="pedreira" id="bloco3">
-				<span>Memória Ram</span>
+			<div class="pedreira" title="Clique para obter informações sobre memórias-ram.">
+				<p>Memória Ram</p>
 			</div>
-			<div class="pedreira" id="bloco4">
-				<span>Placa de vídeo</span>
+			<div class="pedreira" title="Clique para obter informações sobre placas de vídeo.">
+				<p>Placa de vídeo</p>
 			</div>
-			<div class="pedreira" id="bloco5">
-				<span>SSD</span>
+			<div class="pedreira" title="Clique para obter informações sobre SSDs.">
+				<p>SSD</p>
 			</div>
-			<div class="pedreira" id="bloco6">
-				<span>HD</span>
+		</div>
+		<div class="pecas">
+			<div class="pedreira" title="Clique para obter informações sobre HDs.">
+				<p>HD</p>
 			</div>
-			<div class="pedreira" id="bloco7">
-				<span>Cooler</span>
+			<div class="pedreira" title="Clique para obter informações sobre coolers.">
+				<p>Cooler</p>
 			</div>
-			<div class="pedreira" id="bloco8">
-				<span>Fonte</span>
+			<div class="pedreira" title="Clique para obter informações sobre fontes.">
+				<p>Fonte</p>
 			</div>
-			<div class="pedreira" id="bloco9">
-				<span>Monitor</span>
+			<div class="pedreira" title="Clique para obter informações sobre monitores.">
+				<p>Monitor</p>
 			</div>
-			<div class="pedreira" id="bloco10">
-				<span>Gabinete</span>
+			<div class="pedreira" title="Clique para obter informações sobre gabinetes.">
+				<p>Gabinete</p>
 			</div>
 		</div>
 		<div id="funcoes">
@@ -52,28 +54,44 @@
 			<div id="filtrar" onclick="filtrar()">FILTRAR</div>
 			<div id="ordenar" onclick="ordenar()">ORDENAR</div>
 		</div>
-		<div class="itens">
-			<img src="imagens/i5.jpg" alt="Imagem de um processador I5." width="100px;">
-			<h4 id="descricao">PROCESSADOR INTEL CORE I5 10400F, 2.90GHz, (4.30GHz Turbo) 12MB, 10ª GERAÇÃO LGA 1200. Os novos processadores Intel® Core™ da 10ª geração oferecem atualizações de desempenho incríveis para melhorar a produtividade e proporcionar entretenimento surpreendente.</h4>
-			<h4 id="valor">R$ 599,99</h4>
-		</div>
-		<div class="itens">
-			<span></span>
-		</div>
-		<div class="itens">
-			<span></span>
-		</div>
-		<div class="itens">
-			<span></span>
-		</div>
-		<div class="itens">
-			<span></span>
-		</div>
-		<div class="itens">
-			<span></span>
-		</div>
-		<div class="itens">
-			<span></span>
+		<div id="prod">
+			<div class="itens">
+				<img src="imagens/placa-mãe GIGABYTE.jpg" alt="Imagem de uma placa-mãe Gigabyte B760M AORUS ELITE." title="Imagem de uma placa-mãe Gigabyte B760M AORUS ELITE." width="100px;" height="auto">
+				<div style="border: 3px solid gray; margin-left: 1%;"></div>
+				<h4 id="descricao" style="margin: auto; padding: 1%;">Placa Mãe Gigabyte B760M AORUS ELITE (rev. 1.0), LGA 1700, DDR5.<br>O desempenho inigualável das placas-mãe GIGABYTE é garantido por um design térmico inovador e otimizado para garantir a melhor estabilidade de CPU, Chipset, SSD e baixas temperaturas sob carga total de aplicativos e desempenho de jogos.</h4>
+				<div style="border: 3px solid gray;"></div>
+				<div style=" width: auto; height: auto; padding: 1%;" id="valor"><h4>R$:<br>1199,99</h4></div>
+			</div>
+			<div class="itens">
+				<img src="imagens/placa-mãe ASUS.jpg" alt="Imagem de uma placa-mãe Asus TUF GAMING." title="Imagem de uma placa-mãe Asus TUF GAMING." width="100px;" height="auto">
+				<div style="border: 3px solid gray; margin-left: 1%;"></div>
+				<h4 id="descricao" style="margin: auto; padding: 1%;">Placa Mãe Asus TUF GAMING A520M-PLUS II, AMD AM4, mATX, DDR4.<br>A Placa Mãe Asus TUF GAMING A520M-PLUS II, foi projetada com os mais altos padrões de qualidade e tecnologia TUF LANGuard e Turbo LAN. Criada especialmente para jogos online, surpreende até os gamers mais exigentes.</h4>
+				<div style="border: 3px solid gray;"></div>
+				<div style=" width: auto; height: auto; padding: 1%;" id="valor"><h4>R$:<br>699,99</h4></div>
+			</div>
+			<div class="itens">
+				<img src="imagens/i5.jpg" alt="Imagem de um processador I5." title="Imagem de um processador I5." width="100px;" height="auto">
+				<div style="border: 3px solid gray; margin-left: 1%;"></div>
+				<h4 id="descricao" style="margin: auto; padding: 1%;">PROCESSADOR INTEL CORE I5 10400F, 2.90GHz, (4.30GHz Turbo) 12MB, 10ª GERAÇÃO LGA 1200.<br>Os novos processadores Intel® Core™ da 10ª geração oferecem atualizações de desempenho incríveis para melhorar a produtividade e proporcionar entretenimento surpreendente.</h4>
+				<div style="border: 3px solid gray;"></div>
+				<div style="padding: 1%; width: auto; height: auto;" id="valor"><h4>R$:<br>599,99</h4></div>
+			</div>
+			<div class="itens">
+				<img src="imagens/amd ryzen 7.jpg" alt="Imagem de um processador AMD Ryzen Série 7000." title="Imagem de um processador AMD Ryzen Série 7000." width="100px;" height="auto">
+				<div style="border: 3px solid gray; margin-left: 1%;"></div>
+				<h4 id="descricao" style="margin: auto; padding: 1%;">Processador AMD Ryzen 7 7700X, 5.4GHz Max Turbo, Cache 40MB, AM5, 8 Núcleos, Vídeo Integrado - 100-100000591WOF.<br>Bem-vindo à nova era de desempenho. O AMD Ryzen 7 7700X traz a maior velocidade para gamers e criadores com poder puro para enfrentar qualquer jogo ou fluxo de trabalho no playground digital. Um dos processadores para PC mais avançados do mundo para gamers.</h4>
+				<div style="border: 3px solid gray;"></div>
+				<div style=" width: auto; height: auto; padding: 1%;" id="valor"><h4>R$:<br>2.194,99</h4></div>
+			</div>
+			<div class="itens">
+				<p></p>
+			</div>
+			<div class="itens">
+				<p></p>
+			</div>
+			<div class="itens">
+				<p></p>
+			</div>
 		</div>
 	</main>
 	<footer id="footer">
