@@ -1,10 +1,11 @@
 body {
-    margin: 0;
-    padding: 0;
+    /*margin: 0;
+    padding: 0;*/
     background-color:  #2E2B2B;
     font-family: Arial, Helvetica, sans-serif;
 }
-#header {
+/*________Início do CSS da tag hearder.________*/
+header {
     background-color: #65150A;
     display: inline-block;
     width: 100%;
@@ -14,20 +15,11 @@ body {
     width: 100px;
     border: solid black 2px;
     background-color: white;
-    display: relative;
     float: left;
 }
-/*#op {
-    color: white;
-    height: 50%;
-    width: 20%;
-    margin-top: 2.5%;
-    margin-left: 76%;
-    font-weight: bolder;
-}*/
 #login {
     float: right;
-    position: relative;
+    position: absolute;
     top: 40px;
     right: 15px;
     padding: 10px;
@@ -47,13 +39,18 @@ a#login:hover {
 a#login:active {
     color: red;
 }
+/*________Fim do CSS da tag hearder.________*/
+/*________Início do CSS da tag main.________*/
 main {
     height: 100%;
     width: 100%;
 }
-#pecas {
-    background-color: #2E2B2B;
+.pecas {
+    background-color: #211E1E;
     display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 5px;
 }
 .pedreira {
     color: white;
@@ -61,25 +58,14 @@ main {
     border: 2px solid black;
     width: 50%;
     height: 100px;
-    margin-right: 6px;
-    margin-left: 6px;
-    margin-top: 10px;
-    padding: 10px;
     box-sizing: border-box;
     text-align: center;
+    display: inline-block;
 }
-
-/*#footer {
-    height: 75%;
-    width: 100%;
-    background-color: #2E2B2B;
-}*/
 #funcoes {
     margin-top: 50px;
     display:inline-flex;
-
     width: 100%;
-
 }
 #boxpesquisa{
     width: 95%;
@@ -106,20 +92,23 @@ main {
     background-color: #211E1E;
     border: 2px solid  black;
     margin-left: 2%;
-
     width: 15%;
-
+}
+#prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .itens{
-    margin-left: 2.5%;
-    margin-top: 2%;
+    margin: 2%;
     height: 13%;
     width: 95%;
     background-color: #211E1E;
     border: 2px solid  black;
     color: white;
     display: flex;
-    flex-wrap: row wrap;
+    flex-wrap: row;
+    justify-content: center;
 }
 #descricao{
     color: aqua;
@@ -129,19 +118,20 @@ main {
 #valor{
     color: yellow;
     text-align: center;
-    margin-top: 2.5%;
-    margin-right: 1%;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
-#mainForm #formulario {
-    position:absolute;
-    display:block;
+#valor:hover {
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.5s ease-out, color 0.5s ease-out;
 }
-#mainForm {
-    position:relative;
-    margin-left: 40%;
-    width:320px;
-    height:300px;
+#valor:active {
+    background-color: black;
+    color: white;
+    /*transform: translateY(5%);*/
 }
+/*________Fim do CSS da tag main.________*/
+/*________Início do CSS da tag footer.________*/
 fieldset {
   width:300px;
   height:250px;
@@ -150,3 +140,4 @@ vl {
     border-left: 3px solid white;
     height: 120px;
 }
+/*________Fim do CSS da tag footer.________*/
