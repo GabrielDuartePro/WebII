@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tela de login</title>
-    <style>
-        body {
-            background-color: rgb(100, 100, 177);
-        }
-        #mainForm #formulario {
-        position: absolute;
-        display: block;
-        }
-        #mainForm {
-            position: relative;
-            margin-left: 40%;
-            width: 320px;
-            height: 300px;
-        }
-    </style>
-</head>
-<body>
-    <div id="mainForm">
-        <h1>FUTURA LOGO</h1>
-        <form action="/login" method="post" id="formulario">
-            <label for="email_user">email</label><br>
-            <input type="text" id="email_user" name="email_user" required><br><br>
+  </head>
+  <body>
+    <div id="login2">
+      <form class="fundo">
+        <div class="fundo-h2">
+          <h2>Login</h2>
+        </div>
 
-            <label for="senha_user">senha</label><br>
-            <input type="password" name="senha_user" id="senha_user" required><br><br><hr>
+        <div class="fundo-conteudo">
+          <div class="fundo-conteudo-area">
+            <label for="usuario">Usuário</label>
 
-            <span>Esqueceu sua senha?</span>
-            <input type="submit" value="Login">
-        </form>
+            <input type="text" id="usuario" autocomplete="off" />
+          </div>
+
+          <div class="fundo-conteudo-area">
+            <label for="password">Senha</label>
+
+            <input type="password" id="password" autocomplete="off" />
+          </div>
+        </div>
+
+        <div class="fundo-footer">
+          <input type="submit" value="login" class="submit" />
+
+          <a href="">Esqueceu a senha?</a>
+        </div>
+      </form>
     </div>
-</body>
+  </body>
 </html>
